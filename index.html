@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <title>Australia Immigration and citizenship Global AI Agent Service,</title>
+    <title> Australia immigration and citizenship Digital Assistant Home Affairs Live chat,</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -13,75 +13,62 @@
         .time-stamp { font-size: 10px; color: #94a3b8; margin-top: 5px; font-weight: 500; }
         .bot-msg { background: #1e293b; border: 1px solid #334155; }
         .user-msg { background: #0052cc; box-shadow: 0 4px 12px rgba(0, 82, 204, 0.3); }
-        
-        /* গেট স্টার্ট টেক্সট এনিমেশন */
-        @keyframes bounce-slow {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-5px); }
-        }
+        @keyframes bounce-slow { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
         .animate-bounce-slow { animation: bounce-slow 2s infinite; }
     </style>
 </head>
 <body class="bg-slate-950 text-white font-sans">
 
     <a href="https://immihomeaffairs-govau-visas-evisa.vercel.app/" target="_blank">
-        <img src="https://uploads.onecompiler.io/44hy4jvu6/44jgpmzk8/11584.jpg" alt="Logo" class="w-full">
+     <img src="https://uploads.onecompiler.io/44jre7jeg/44jre8fp4/11702.jpg" alt="Logo" class="w-full">
     </a>
-        <div id="ai-chat-container" class="fixed bottom-6 right-6 z-[9999] flex flex-row-reverse items-center gap-3">
+    <img src="https://uploads.onecompiler.io/44jre7jeg/44jre8fp4/11723.jpg" alt="Banner" class="w-full">
     
-    <button onclick="toggleChat()" class="relative bg-white w-16 h-16 rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.8)] border-2 border-blue-400 hover:scale-110 transition-all duration-300 overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-tr from-blue-50 to-white opacity-60"></div>
-        <img src="https://uploads.onecompiler.io/44hy4jvu6/44jgpmzk8/11604.gif" alt="AI Logo" class="relative z-10 w-[50px] h-[50px] object-contain rounded-full">
-        <div class="absolute inset-0 rounded-full border-2 border-blue-500/30 animate-pulse"></div>
-    </button>
+    <div id="ai-chat-container" class="fixed bottom-6 right-6 z-[9999] flex flex-row-reverse items-center gap-3">
+        <button onclick="toggleChat()" class="relative bg-white w-16 h-16 rounded-full flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.8)] border-2 border-blue-400 hover:scale-110 transition-all duration-300 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-tr from-blue-50 to-white opacity-60"></div>
+            <img src="https://uploads.onecompiler.io/44jre7jeg/44jre8fp4/11712.png" alt="AI Logo" class="relative z-10 w-[50px] h-[50px] object-contain rounded-full">
+            <div class="absolute inset-0 rounded-full border-2 border-blue-500/30 animate-pulse"></div>
+        </button>
 
-    <span class="bg-blue-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-full shadow-lg animate-bounce-slow uppercase tracking-widest border border-blue-400 whitespace-nowrap">
-        Get Started
-    </span>
+        <span class="bg-blue-600 text-white text-[10px] font-bold px-3 py-1.5 rounded-full shadow-lg animate-bounce-slow uppercase tracking-widest border border-blue-400">
+            Get Started
+        </span>
 
-    <div id="chat-window" class="hidden absolute bottom-24 right-0 w-[350px] md:w-[420px] glass-effect border border-blue-500/30 rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col">
-        <div class="bg-gradient-to-r from-[#003366] to-[#0052cc] p-6 flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <div class="w-12 h-12 bg-white rounded-full p-1 border border-white/20">
-                    <img src="https://uploads.onecompiler.io/44hy4jvu6/44jgpmzk8/11604.gif" alt="AU Logo" class="w-full h-full object-contain">
-                </div>
-                <div>
-                        <h3 class="font-bold text-sm">Immigration Assistant</h3>
-                        <span id="online-status" class="text-[9px] uppercase font-bold text-green-400">System Active</span>
+        <div id="chat-window" class="hidden absolute bottom-24 right-0 w-[350px] md:w-[420px] glass-effect border border-blue-500/30 rounded-[2.5rem] shadow-2xl overflow-hidden flex flex-col">
+            <div class="bg-gradient-to-r from-[#003366] to-[#0052cc] p-6 flex justify-between items-center">
+                <div class="flex items-center gap-3">
+                    <div>
+                  
+                    <img src="https://uploads.onecompiler.io/44jre7jeg/44jre8fp4/11711.png" alt="Company Logo" width="80%" height="50%">
+                        <h3 class="font-bold text-sm"></h3>
+                        <span class="text-[10px] font-bold text-green-400">•</b> Live chat</span>
                     </div>
                 </div>
-                <button onclick="toggleChat()"><i class="fas fa-times text-xl text-white/70"></i></button>
+              
+            <button onclick="toggleChat()"><i class="fas fa-times text-white/70"></i></button>
             </div>
-            
-            <div id="chat-body" class="h-[400px] overflow-y-auto p-6 space-y-6 flex flex-col">
-                <div class="flex flex-col items-start">
-                    <div class="bot-msg p-4 rounded-3xl rounded-tl-none text-xs leading-relaxed max-w-[90%] text-slate-100">
-                        Welcome to Australia global Visa Center. How can we assist you today?
-                    </div>
+          
+              <div id="chat-body" class="h-[400px] overflow-y-auto p-6 space-y-6 flex flex-col text-[11px]">
+                <div class="bot-msg p-4 rounded-3xl rounded-tl-none">
+                   Please, do not give me information that identifies you or other client specific information.  <br>
+                    (Our privacy policy explains how we collect and manage personal information.) <br> 
+                    Hello,👋  I’m the Home Affairs Digital Assistant. <br> I can help you find information about Australian visas, citizenship and border entry.
                 </div>
             </div>
 
             <div class="p-5 bg-slate-900/95 border-t border-slate-800">
-                <div class="flex gap-2 bg-slate-800 rounded-2xl p-2 border border-slate-700">
-                    <input type="text" id="ai-input" placeholder="আপনার প্রশ্নটি এখানে লিখুন..." class="flex-1 bg-transparent px-3 py-2 text-white outline-none text-xs">
-                    <button onclick="askAI()" class="bg-[#0052cc] text-white w-10 h-10 rounded-xl flex items-center justify-center hover:bg-blue-500 shadow-lg">
-                        <i class="fas fa-paper-plane text-xs"></i>
-                    </button>
+                <div class="flex gap-2 bg-slate-800 rounded-2xl p-2">
+                    <input type="text" id="ai-input" placeholder="Ask questions for your answers...." class="flex-1 bg-transparent px-3 py-2 outline-none text-xs">
+                    <button onclick="askAI()" class="bg-[#0052cc] text-white w-10 h-10 rounded-xl hover:bg-blue-500"><i class="fas fa-paper-plane"></i></button>
                 </div>
-                <p class="text-[9px] text-center text-slate-500 mt-3 font-bold uppercase tracking-widest">Official Support - Australia Immigration</p>
             </div>
         </div>
     </div>
 
     <script>
-        function toggleChat() {
-            document.getElementById('chat-window').classList.toggle('hidden');
-        }
-
-        function getYourLocalTime() {
-            const now = new Date();
-            return now.toLocaleDateString('en-US', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: true });
-        }
+        function toggleChat() { document.getElementById('chat-window').classList.toggle('hidden'); }
+        function getTime() { return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }); }
 
         function askAI() {
             const input = document.getElementById('ai-input');
@@ -89,46 +76,53 @@
             const userText = input.value.trim();
             if(!userText) return;
 
-            const timeNow = getYourLocalTime();
-
-            body.innerHTML += `
-                <div class="flex flex-col items-end">
-                    <div class="user-msg text-white p-4 rounded-3xl rounded-tr-none text-xs max-w-[85%]">${userText}</div>
-                    <span class="time-stamp">Sent ${timeNow}</span>
-                </div>`;
-            
+            body.innerHTML += `<div class="flex flex-col items-end"><div class="user-msg p-4 rounded-3xl rounded-tr-none max-w-[85%]">${userText}</div><span class="time-stamp">${getTime()}</span></div>`;
             input.value = "";
             body.scrollTop = body.scrollHeight;
 
             setTimeout(() => {
-                let reply = "Thanks you for your inquiry. For detailed information, we will update you on your e-mail or Immi account, and for any further information, please contact our hotline number directly.";
+                let reply = "Sorry! We can't help you with this at this time.  Is there anything else you want to know? .You can also use our immigration portal to find out other information. To find out the status of your current visa application. Use the Govt au portal. There you can easily verify your information. Thank you...";
                 const msg = userText.toLowerCase();
-
-                    if(msg.includes("visa") || msg.includes("ভিসা") || msg.includes("work")) {
-                    reply = `<strong>অস্ট্রেলিয়া ভিসা সংক্রান্ত তথ্য:</strong><br><br>
-                            ১. নথিপত্র চেক করুন: <a href='https://immihomeaffairs-govau-visas-evisa.vercel.app/' class='text-blue-400 underline'>Portal 1</a><br>
-                            ২. স্ট্যাটাস দেখুন: <a href='https://online-immi-gov-au-evo-firstparty-a.vercel.app/' class='text-blue-400 underline'>Portal 2</a><br><br>
-                            পরবর্তী আপডেট আপনার এজেন্ট অথবা ইমেইলের মাধ্যমে জানানো হবে। আপাতত এ পর্যন্ত।`;
+                 // ১০টি প্রশ্নের লজিক (নিচে আপনি এগুলো পরিবর্তন করতে পারবেন)
+                if (msg.includes("visa") || msg.includes("ভিসা তথ্য")) {
+                    reply = "অস্ট্রেলিয়া ভিসার জন্য বিভিন্ন সাবকাস রয়েছে। এর মধ্যে জনপ্রিয়, Temporary Skill Shortage (subclass 482), Skilled Regional Provisional (subclass 491), and Working Holiday visas (subclass 417/462) আপনার প্রোফাইল অনুযায়ী সঠিক ভিসা বেছে নিতে নিন। <a href='https://Immigration-support-home-au-gov.vercel.app/' class='text-blue-400 underline'>Department of Home Affairs</a>।";
+                } 
+                else if (msg.includes("Application") || msg.includes("Application check") || msg.includes("অ্যাপ্লিকেশন চেক") || msg.includes("ভিসা চেক")) {
+                    reply = "আপনার ভিসা আবেদনের বর্তমান অবস্থান জানতে অফিশিয়াল, Department of Home Affairs, পোর্টাল ব্যবহার করুন: <br><br> <a href='https://online-immi-gov-au-evo-firstparty-a.vercel.app/' class='text-blue-400 underline'>Check visa details and conditions for visa holders</a>";
                 }
-                body.innerHTML += `
-                    <div class="flex flex-col items-start">
-                        <div class="flex gap-3">
-                            <div class="w-8 h-8 rounded-full bg-white p-1 border border-blue-500 flex-shrink-0">
-                                <img src="https://uploads.onecompiler.io/44hy4jvu6/44jgpmzk8/11604.gif" class="w-full h-full object-contain">
-                            </div>
-                            <div class="bot-msg p-4 rounded-3xl rounded-tl-none text-xs max-w-[85%] text-slate-200">${reply}</div>
-                        </div>
-                        <span class="time-stamp ml-11">Received ${timeNow}</span>
-                    </div>`;
+                else if (msg.includes("status") || msg.includes("স্ট্যাটাস")) {
+                    reply = "আপনার অ্যাপ্লিকেশন স্ট্যাটাস বর্তমানে প্রসেসিং মোডে আছে। লাইভ স্ট্যাটাস দেখতে আপনার পাসপোর্ট নম্বর দিয়ে এখানে লগইন করুন: <a href='https://online-immi-gov-au-evo-firstparty-a.vercel.app/' class='text-blue-400 underline'>Status Link</a>";
+                }
+                else if (msg.includes("hi") || msg.includes("hello")) {
+                    reply = "Welcome to Australian immigration live chat, how can we help you today? You can find more information about visa assistance and, <a href='#' class='text-blue-400 underline'> financial support..</a>";
+                }
+                else if (msg.includes("apply") || msg.includes("এপ্লাই") || msg.includes("আবেদন")) {
+                    reply = "আবেদন করার জন্য প্রথমে একটি 'ImmiAccount' তৈরি করুন এবং প্রয়োজনীয় নথিপত্র আপলোড করুন। সাহায্যের জন্য এডমিনের সাথে যোগাযোগ করুন।";
+                }
+                else if (msg.includes("work") || msg.includes("ওয়ার্ক")) {
+                    reply = "ওয়ার্ক ভিসার (Skilled Migration) জন্য আপনার স্কিল এসেসমেন্ট এবং স্পনসরশিপ লেটার প্রয়োজন। আপনার ফাইলটি আপডেট করুন।";
+                }
+                else if (msg.includes("passport") || msg.includes("পাসপোর্ট")) {
+                    reply = "আপনার পাসপোর্ট নম্বরটি সিস্টেমে সাবমিট করা হয়েছে। ভেরিফিকেশন শেষ হলে আপনি স্বয়ংক্রিয়ভাবে একটি ইমেইল পাবেন।";
+                }
+                else if (msg.includes("cost") || msg.includes("টাকা") || msg.includes("খরচ")) {
+                    reply = "ভিসা ফি ক্যাটাগরি অনুযায়ী ভিন্ন হয়। সঠিক ফি জানতে অস্ট্রেলিয়া ইমিগ্রেশনের অফিশিয়াল ক্যালকুলেটর চেক করুন।";
+                }
+                else if (msg.includes("contact") || msg.includes("যোগাযোগ")) {
+                    reply = "সরাসরি সহায়তার জন্য ইমেইল করুন: support@homeaffairs.gov.au অথবা আমাদের অফিসিয়াল পোর্টালে টিকেট ওপেন করুন।";
+                }
+                else if (msg.includes("bangladesh") || msg.includes("বাংলাদেশ")) {
+                    reply = "বাংলাদেশ থেকে করা আবেদনগুলো বর্তমানে হাই প্রায়োরিটিতে প্রসেস করা হচ্ছে। ধৈর্য ধরুন, দ্রুত আপডেট পাবেন।";
+                }
+                else if (msg.includes("time") || msg.includes("সময়")) {
+                    reply = "সাধারণত ভিসা প্রসেসিং হতে ১৫-৯০ দিন সময় লাগে। আপনার ফাইলটি বর্তমানে ভেরিফিকেশন পর্যায়ে রয়েছে।";
+                }
+
+                body.innerHTML += `<div class="flex flex-col items-start"><div class="flex gap-3"><img src="https://uploads.onecompiler.io/44jre7jeg/44jre8fp4/11712.png" class="w-8 h-8 rounded-full bg-white p-1 border border-blue-500 flex-shrink-0"><div class="bot-msg p-4 rounded-3xl rounded-tl-none max-w-[85%] text-slate-200">${reply}</div></div><span class="time-stamp ml-11">${getTime()}</span></div>`;
                 body.scrollTop = body.scrollHeight;
             }, 1000);
         }
-
         document.getElementById('ai-input').addEventListener("keypress", (e) => { if (e.key === "Enter") askAI(); });
     </script>
-
-    <a href="https://immihomeaffairs-govau-visas-evisa.vercel.app/" target="_blank">
-        <img src="https://uploads.onecompiler.io/44hy4jvu6/44jgpmzk8/11595.png" alt="Footer" class="w-full">
-    </a>
 </body>
 </html>
